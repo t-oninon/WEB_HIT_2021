@@ -96,6 +96,7 @@ body > div {
     padding: 12px 40px 12px 16px;
     background-color: transparent;
     outline: none;
+    color: #0abaf0;
     border: 1px solid #0abaf0;
     border-radius: 8px;
 }
