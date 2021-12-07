@@ -4,7 +4,6 @@
 //     if (lastIndex == digits.length - 1) {
 //         firstIndex = digits.indexOf(9);
 //         digits.fill(0, firstIndex, lastIndex+1);
-//         if (firstIndex != 0)
 //             digits[firstIndex-1]++;
 //     } else {
 //         digits[digits.length-1]++;
@@ -21,8 +20,6 @@ const change = (digits) =>{
     for (const i of number.toString()) {
         result.push(Number.parseInt(i))
     }
-    if(result.length != digits.length)
-        result.shift();
     return result;
 }
 
